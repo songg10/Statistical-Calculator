@@ -15,6 +15,7 @@ For the implementation, the following languages were used:
 
 ## Instructions
 ### **Before proceeding, please make sure port 8080 and 3000 are free on your host system.** ###
+### Please make sure you have VirtualBox and Vagrant on your system before running this project ###
 - Clone or download this repository to your computer.
 - `cd` into the project directory where we have the **Vagrantfile**.
 - Run the following command:
