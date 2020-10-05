@@ -1,7 +1,7 @@
 # Statistical Calculator
 
 ## General Goal
-- The initial idea of the project was to be a full fledged calculator with many areas such as Calculus, Statistics, Linear Algebrea and IP Subnet. However due to time constraint, I have only able to implement a simple summary statistics calculator, which would be nice for anyone to quickly gather some statistics about their sample through just the usage of the internet.  
+- This is a simple statistical calculator that will generate a summary of the sample input.
 
 ## Implementation
 For the implementation, the following languages were used:
@@ -15,7 +15,6 @@ For the implementation, the following languages were used:
 
 ## Instructions
 ### **Before proceeding, please make sure port 8080 and 3000 are free on your host system.** ###
-### **If you are not running on CSIL Lab, please replace the file in `/project/cookbooks/polyglot/recipes/defaul.rb` by the file in `non-CSIL/default.rb`** ###
 - Clone or download this repository to your computer.
 - `cd` into the project directory where we have the **Vagrantfile**.
 - Run the following command:
@@ -32,9 +31,3 @@ vagrant ssh
 `npm start`
 - Now you should be able to access the front-end through your browser through [http://localhost:3000](http://localhost:3000).
 - You can now enter the data into the text box. The text box will take a list of number seperated by commas. Every illegal character will be dropped automatically. Then, you could press calculate to get the result in the following table.
-
-## Features
-- As the instruction and general idea sections has outlined, this is a calculator for getting the summary of a sample data. 
-- There were more features planned initially. However, the other features are still faulty and need more time to develope.
-- If one more day were given, I would be able to implement an interactive calculator and some tools for inferential statistical test such as T-test, Mann-Whitney U-test, e.t.c. 
-- In the future, I am planning to implement a feature that allows people to enter their data by uploading a .csv file as it is very common for people to record data to a .csv file.
