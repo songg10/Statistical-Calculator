@@ -1,7 +1,7 @@
 # Statistical Calculator
 
 ## General Goal
-- This is a simple statistical calculator that will generate a summary of the sample input.
+- This is a simple statistical calculator that will generate a summary statistics of the sample input (numbers).
 
 ## Implementation
 For the implementation, the following languages were used:
